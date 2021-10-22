@@ -12,4 +12,6 @@
     <string name="donateTitle">Welcome Home</string>
     <string name="donateSubtitle">I am Bang! Please Give Me Generously</string>
     <string name="donateButton">Donate</string>
+    <string name="paypal">PayPal</string>
+    <string name="direct">Direct</string>
 </resources>
