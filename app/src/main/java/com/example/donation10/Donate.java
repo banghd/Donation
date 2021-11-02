@@ -11,6 +11,8 @@ import androidx.appcompat.widget.Toolbar;
 import android.widget.RadioGroup;
 import android.widget.NumberPicker;
 import android.widget.ProgressBar;
+import android.widget.Toast;
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -56,13 +58,13 @@ public class Donate extends AppCompatActivity {
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        switch (item.getItemId())
+        {
+            case R.id.menuReport:
+                Toast toast = Toast.makeText(this, "Report Selected",
+                        Toast.LENGTH_SHORT);
+                toast.show();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
