@@ -1,5 +1,6 @@
 package com.example.donation10;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -73,10 +74,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId())
         {
-            case R.id.menuReport:
-                Toast toast = Toast.makeText(this, "Report Selected",
-                        Toast.LENGTH_SHORT);
-                toast.show();
+            case R.id.menuReport : startActivity (new Intent(this, Report.class));
                 break;
         }
         return super.onOptionsItemSelected(item);
