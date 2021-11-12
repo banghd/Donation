@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Donation10">
         <activity
-            android:name=".Report"
+            android:name=".activities.Report"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

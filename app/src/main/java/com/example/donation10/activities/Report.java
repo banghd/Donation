@@ -1,10 +1,12 @@
-package com.example.donation10;
+package com.example.donation10.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.example.donation10.R;
 
 public class Report extends AppCompatActivity {
     ListView listView;

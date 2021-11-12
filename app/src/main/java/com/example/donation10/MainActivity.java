@@ -3,6 +3,7 @@ package com.example.donation10;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.donation10.activities.Report;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -18,7 +19,6 @@ import android.widget.Button;
 import android.widget.NumberPicker;
 import android.widget.ProgressBar;
 import android.widget.RadioGroup;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private Button donateButton;
