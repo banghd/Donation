@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="menuDonate" type="id"/>
-    <item name="paymentAmount" type="id"/>
-    <item name="totalSoFar" type="id"/>
-</resources>
